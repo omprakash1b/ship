@@ -1,0 +1,20 @@
+/* Custom styles */
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  .btn-success {
+    padding: 5px 10px;
+  }
+  
+  .btn-danger {
+    padding: 5px 10px;
+  }

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beauty Salon Booking</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="beautySalon.css">
+</head>
+<body>
+  <div class="container mt-4">
+    <h1 class="mb-4">Beauty Salon Booking</h1>
+
+    <!-- Services List -->
+    <div class="card mb-4">
+      <div class="card-body">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Service Name</th>
+              <th>Category</th>
+              <th>Price</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="servicesTable">
+            <tr>
+              <td colspan="4" class="text-center">Loading services...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Booking Summary -->
+    <h2>Booking Summary</h2>
+    <div class="card">
+      <div class="card-body">
+        <ul id="bookingSummary" class="list-group mb-3">
+          <li class="list-group-item text-muted text-center">No services booked yet.</li>
+        </ul>
+        <button id="checkoutBtn" class="btn btn-primary w-100" disabled>Checkout</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="beautySalon.js"></script>
+</body>
+</html>

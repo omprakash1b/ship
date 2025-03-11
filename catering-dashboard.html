@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catering Food Items</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="catering.css">
+</head>
+<body>
+  <div class="container mt-4">
+    <h1 class="mb-4">Catering Menu</h1>
+    <div class="card mb-4">
+      <div class="card-body">
+        <table class="table table-striped">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Item Name</th>
+              <th scope="col">Price</th>
+              <th scope="col">Action</th>
+            </tr>
+          </thead>
+          <tbody id="foodItemsTable">
+            <tr>
+              <td colspan="3" class="text-center">Loading food items...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <h2>Order Summary</h2>
+    <div class="card">
+      <div class="card-body">
+        <ul id="orderSummary" class="list-group mb-3">
+          <li class="list-group-item text-muted text-center">No items ordered yet.</li>
+        </ul>
+        <button id="checkoutBtn" class="btn btn-primary w-100" disabled>Checkout</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="catering.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+/* Custom styles */
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .btn-success {
+    padding: 5px 10px;
+  }
+  
+  .btn-danger {
+    padding: 5px 10px;
+  }
+  
+  .list-group-item {
+    transition: background-color 0.2s;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f8f9fa;
+  }
+  

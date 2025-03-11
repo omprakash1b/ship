@@ -1,0 +1,9 @@
+
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    max-height: 550px;
+    overflow-y: auto;
+  }

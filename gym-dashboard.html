@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym Session Booking</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="gym.css">
+</head>
+<body>
+  <div class="container mt-4">
+    <h1 class="mb-4">Gym Session Booking</h1>
+
+    <!-- Sessions List -->
+    <div class="card mb-4">
+      <div class="card-body">
+        <table class="table table-striped">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Session Name</th>
+              <th scope="col">Category</th>
+              <th scope="col">Price</th>
+              <th scope="col">Action</th>
+            </tr>
+          </thead>
+          <tbody id="sessionsTable">
+            <tr>
+              <td colspan="4" class="text-center">Loading sessions...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Booking Summary -->
+    <h2>Booking Summary</h2>
+    <div class="card">
+      <div class="card-body">
+        <ul id="bookingSummary" class="list-group mb-3">
+          <li class="list-group-item text-muted text-center">No sessions booked yet.</li>
+        </ul>
+        <button id="checkoutBtn" class="btn btn-primary w-100" disabled>Checkout</button>
+      </div>
+    </div>
+
+    <!-- Recent Booking -->
+    <h2 class="mt-4">Recent Booking</h2>
+    <div class="card">
+      <div class="card-body">
+        <ul id="recentBooking" class="list-group">
+          <li class="list-group-item text-muted text-center">No recent bookings.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Booking History -->
+    <h2 class="mt-4">Booking History</h2>
+    <div class="card">
+      <div class="card-body">
+        <ul id="bookingHistory" class="list-group">
+          <li class="list-group-item text-muted text-center">No booking history.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="gym.js"></script>
+</body>
+</html>

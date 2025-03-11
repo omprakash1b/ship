@@ -1,0 +1,13 @@
+/* Custom styles */
+body {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .list-group-item {
+    transition: all 0.3s ease;
+  }
+  
+  .btn-danger, .btn-success {
+    padding: 5px 10px;
+  }
